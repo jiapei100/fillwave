@@ -4,9 +4,9 @@ configuration:
 
 environment:
   matrix:
-  #- BUILD: msvc
-  #- BUILD: msvc
-  #  PLATFORM: x64
+  - BUILD: msvc
+  - BUILD: msvc
+    PLATFORM: x64
   - BUILD: mingw
 
 before_build:

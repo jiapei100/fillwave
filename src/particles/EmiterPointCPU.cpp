@@ -135,7 +135,7 @@ inline void EmiterPointCPU::coreDraw() {
 		mTexture->bind(FILLWAVE_DIFFUSE_UNIT);
 	}
 
-	if (not mDepthTesting) {
+	if (!mDepthTesting) {
 		glDepthMask(GL_FALSE);
 	}
 

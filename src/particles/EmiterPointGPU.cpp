@@ -175,7 +175,7 @@ inline void EmiterPointGPU::coreDraw() {
 	mVBOGPU[mSrcIndex]->bind();
 	mVBOGPU[mSrcIndex]->attributesSetPointer();
 
-	if (not mDepthTesting) {
+	if (!mDepthTesting) {
 		glDepthMask(GL_FALSE);
 	}
 
